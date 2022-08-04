@@ -1,0 +1,239 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /* background-color:#f0e9e9; */
+}   
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Work Sans", sans-serif;
+  }
+ 
+
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Small */
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  /* Medium */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+    html {
+      scroll-behavior: smooth;
+  }
+  
+  .backgroundColor{
+      background-color:rgb(37, 36, 36);
+  }
+ 
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 53px;
+    background-color: black;
+    
+}
+ul.ul-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Nav1 li {
+  margin-right: 61px;
+}
+.Nav1 a {
+  color: rgb(255, 255, 255);
+}
+.landing{
+  padding: 20px;
+  background: #f0e9e9;;
+}
+.landing .container{
+  display: flex;
+  justify-content: space-between;
+}
+.landing .text{
+  margin-top: 120px;
+  font-size: xx-large;
+}
+.landing img{
+  width: 31%;
+  border-radius: 44%;
+  animation: up-and-down 5s linear infinite;
+  position: relative;
+}
+@keyframes up-and-down{
+  0%, 100% {
+    left: 0;
+ }
+ 50% {
+  left: -35px;
+}
+}
+.about{
+  padding-top: 60px;
+  padding-left: 50px;
+  padding-right: 163px;
+  padding-bottom: 60px;
+ background-color: #f0e9e9;;
+}
+.title{
+  text-align: center;
+}
+.about .text{
+  text-align: center;
+  width: 50%;
+  margin-left: 293px;
+  background-color: #7777772b;
+  /* background-color:#f0e9e9; */
+  padding: 20px;
+  border-radius: 20px 20px 20px;
+  box-shadow: 20px 20px 20px;
+}
+.about .one{
+  display: flex;
+  justify-content: right;
+  margin-top: 45px;
+  text-align: center;
+ 
+ 
+}
+.about .box {
+  margin-right: 97px;
+  background-color: #77777729;
+  padding: 45px 70px ;
+  border-radius: 250px 0px 250px 0px;
+  box-shadow: 20px 20px 20px;
+  
+}
+.about .boxing {
+  margin-right: -19px;
+  background-color: #77777729;
+  padding: 52px 120px;
+  border-radius: 250px 0px 40px 0px;
+  width: 58%;
+  font-size:medium;
+  box-shadow: 20px 20px 20px;
+}
+.portofolio{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #f0e9e9;
+  /* box-shadow: 0 0 20px 20px; */
+}
+.portofolio .container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(271px, 1fr));
+  grid-gap: 30px;
+}
+.portofolio .box{
+  background-color: white;
+  padding:9px;
+  padding-bottom: 14px;
+  box-shadow: 0px 40px 39px 0px rgb(0 0 0 / 29%), 0px 2px 4px 0px rgb(0 0 0 / 12%);
+  box-shadow: 20px 20px 20px black;
+            
+}
+.portofolio .box img{
+  width: 100%;
+  height: 57%;
+}
+.portofolio .box a{
+  background-color: #357bdb;
+  color: white;
+  padding: 8px;
+  border-radius: 6px;
+}
+.footer{
+    height: 90px;
+    background-color: black;
+}
+.footer .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 14px;
+}
+p{
+ font-size: 19px;
+}
+
+.footer h1{
+  font-size: 26px;
+  margin-left: 77px;
+  /* background-color: #f1f1f1; */
+  color: #f1f1f1;
+}
+.footer .icon .fa-brands{
+  font-size: 30px;
+  margin-left: 9px;
+  color: #f1f1f1;
+}
+.di {
+  margin-right: 82px;
+  font-size: 30px;
+}
+.dynamic-txts {
+  overflow: hidden;
+}
+.dynamic-txts li {
+  list-style: none;
+  color: #0089ff;
+  font-weight: 600;
+  animation: slide 9s steps(4) infinite;
+  font-size:180%;
+}
+.dynamic-txts li span {
+  position: relative;
+}
+.dynamic-txts li span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #f0e9e9;
+  border-left: 2px solid #0089ff;
+  animation: typing 3s steps(19) infinite;
+}
+@keyframes slide{
+  100%{
+    top: -360px;
+  }
+}
+@keyframes typing{
+  40%, 60%{
+    left: calc(100% + 30px)
+  }
+  100%{
+    left: 0;
+  }
+}
