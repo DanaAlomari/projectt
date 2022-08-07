@@ -2,6 +2,7 @@
 This is my private portfolio that talks about my experiences briefly and projects
 
 https://danaalomari.github.io/projectt/
+
 https://www.figma.com/file/ypSMhXFEm8fuj0jeBts7Yk/Untitled?node-id=0%3A1
 https://www.figma.com/file/iSSJtHBx0L6LWPH4UWwNXu/Untitled?node-id=0%3A1
 
